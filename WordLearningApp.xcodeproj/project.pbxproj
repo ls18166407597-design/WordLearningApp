@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0B6E0C5B1E4F63A0FE3F27 /* WordFormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9C7C0CF04D4183BDA4F5CE /* WordFormService.swift */; };
+		4AE092FF5A5849B58623AD0D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2205BD696E8D4CEE9A1AF48D /* AppTheme.swift */; };
+		9096D333727A4951A6FE96CF /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A0E1B0C8C457B809A8A44 /* ThemeManager.swift */; };
+		A10000000000000000000001 /* WordLearningApp/App/WordLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* WordLearningApp/App/WordLearningApp.swift */; };
+		A10000000000000000000002 /* WordLearningApp/Models/WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* WordLearningApp/Models/WordData.swift */; };
+		A10000000000000000000003 /* WordLearningApp/Services/Config/LLMConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* WordLearningApp/Services/Config/LLMConfigStore.swift */; };
+		A10000000000000000000004 /* WordLearningApp/Services/Network/APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* WordLearningApp/Services/Network/APIService.swift */; };
+		A10000000000000000000005 /* WordLearningApp/Services/Storage/LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* WordLearningApp/Services/Storage/LocalStorage.swift */; };
+		A10000000000000000000006 /* WordLearningApp/ViewModels/HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* WordLearningApp/ViewModels/HomeViewModel.swift */; };
+		A10000000000000000000007 /* WordLearningApp/ViewModels/WordDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* WordLearningApp/ViewModels/WordDetailViewModel.swift */; };
+		A10000000000000000000008 /* WordLearningApp/Views/Favorites/FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* WordLearningApp/Views/Favorites/FavoritesView.swift */; };
+		A10000000000000000000009 /* WordLearningApp/Views/History/HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019 /* WordLearningApp/Views/History/HistoryView.swift */; };
+		A1000000000000000000000A /* WordLearningApp/Views/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001A /* WordLearningApp/Views/Home/HomeView.swift */; };
+		A1000000000000000000000B /* WordLearningApp/Views/Root/RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001B /* WordLearningApp/Views/Root/RootTabView.swift */; };
+		A1000000000000000000000C /* WordLearningApp/Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001C /* WordLearningApp/Views/Settings/SettingsView.swift */; };
+		A1000000000000000000000D /* WordLearningApp/Views/WordDetail/WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001D /* WordLearningApp/Views/WordDetail/WordDetailView.swift */; };
+		E1D3F5C5F4D74D3BAFEB1C01 /* TTSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F2D0A4D144D1DA1C2DB19 /* TTSService.swift */; };
+		3B1F4CAADB6E4B70B5EB21F9 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A14765AE02D4B558001A9A0 /* EmptyStateView.swift */; };
+		A1C265E928024CF5BFFAE4CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C265E828024CF5BFFAE4CB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2205BD696E8D4CEE9A1AF48D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		28CA45622EFBD37600E34085 /* WordLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9C7C0CF04D4183BDA4F5CE /* WordFormService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormService.swift; sourceTree = "<group>"; };
+		768A0E1B0C8C457B809A8A44 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		8C3F2D0A4D144D1DA1C2DB19 /* TTSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSService.swift; sourceTree = "<group>"; };
+		A10000000000000000000011 /* WordLearningApp/App/WordLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/App/WordLearningApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* WordLearningApp/Models/WordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Models/WordData.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* WordLearningApp/Services/Config/LLMConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Services/Config/LLMConfigStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* WordLearningApp/Services/Network/APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Services/Network/APIService.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* WordLearningApp/Services/Storage/LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Services/Storage/LocalStorage.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* WordLearningApp/ViewModels/HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* WordLearningApp/ViewModels/WordDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/ViewModels/WordDetailViewModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* WordLearningApp/Views/Favorites/FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/Favorites/FavoritesView.swift; sourceTree = "<group>"; };
+		A10000000000000000000019 /* WordLearningApp/Views/History/HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/History/HistoryView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001A /* WordLearningApp/Views/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001B /* WordLearningApp/Views/Root/RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/Root/RootTabView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001C /* WordLearningApp/Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		A1000000000000000000001D /* WordLearningApp/Views/WordDetail/WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/WordDetail/WordDetailView.swift; sourceTree = "<group>"; };
+		1A14765AE02D4B558001A9A0 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLearningApp/Views/Components/EmptyStateView.swift; sourceTree = "<group>"; };
+		A1C265E828024CF5BFFAE4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WordLearningApp/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3129ECB73CF24C758A65533B /* WordLearningApp/Styles */ = {
+			isa = PBXGroup;
+			children = (
+				2205BD696E8D4CEE9A1AF48D /* AppTheme.swift */,
+			);
+			path = WordLearningApp/Styles;
+			sourceTree = "<group>";
+		};
+		4E5C0C3E590A4458A2F39B74 /* WordLearningApp/Services/WordForm */ = {
+			isa = PBXGroup;
+			children = (
+				5A9C7C0CF04D4183BDA4F5CE /* WordFormService.swift */,
+			);
+			path = WordLearningApp/Services/WordForm;
+			sourceTree = "<group>";
+		};
+		7F479C679A744E44B2B32785 /* WordLearningApp/Services/TTS */ = {
+			isa = PBXGroup;
+			children = (
+				8C3F2D0A4D144D1DA1C2DB19 /* TTSService.swift */,
+			);
+			path = WordLearningApp/Services/TTS;
+			sourceTree = "<group>";
+		};
+		983B2477B76F4697AEF904D3 /* WordLearningApp/Services/Theme */ = {
+			isa = PBXGroup;
+			children = (
+				768A0E1B0C8C457B809A8A44 /* ThemeManager.swift */,
+			);
+			path = WordLearningApp/Services/Theme;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000040 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000041 /* WordLearningApp */,
+				28CA45622EFBD37600E34085 /* WordLearningApp.app */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000041 /* WordLearningApp */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* WordLearningApp/App/WordLearningApp.swift */,
+				A10000000000000000000012 /* WordLearningApp/Models/WordData.swift */,
+				A10000000000000000000013 /* WordLearningApp/Services/Config/LLMConfigStore.swift */,
+				A10000000000000000000014 /* WordLearningApp/Services/Network/APIService.swift */,
+				A10000000000000000000015 /* WordLearningApp/Services/Storage/LocalStorage.swift */,
+				A10000000000000000000016 /* WordLearningApp/ViewModels/HomeViewModel.swift */,
+				A10000000000000000000017 /* WordLearningApp/ViewModels/WordDetailViewModel.swift */,
+				A1000000000000000000001A /* WordLearningApp/Views/Home/HomeView.swift */,
+				A1000000000000000000001B /* WordLearningApp/Views/Root/RootTabView.swift */,
+				A10000000000000000000018 /* WordLearningApp/Views/Favorites/FavoritesView.swift */,
+				A10000000000000000000019 /* WordLearningApp/Views/History/HistoryView.swift */,
+				A1000000000000000000001C /* WordLearningApp/Views/Settings/SettingsView.swift */,
+				A1000000000000000000001D /* WordLearningApp/Views/WordDetail/WordDetailView.swift */,
+				A1C265E828024CF5BFFAE4CB /* Assets.xcassets */,
+				3129ECB73CF24C758A65533B /* WordLearningApp/Styles */,
+				983B2477B76F4697AEF904D3 /* WordLearningApp/Services/Theme */,
+				7F479C679A744E44B2B32785 /* WordLearningApp/Services/TTS */,
+				4E5C0C3E590A4458A2F39B74 /* WordLearningApp/Services/WordForm */,
+			
+				1A14765AE02D4B558001A9A0 /* EmptyStateView.swift */,);
+			name = WordLearningApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000050 /* WordLearningApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000060 /* Build configuration list for PBXNativeTarget "WordLearningApp" */;
+			buildPhases = (
+				A10000000000000000000031 /* Sources */,
+				A10000000000000000000030 /* Frameworks */,
+				A10000000000000000000032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordLearningApp;
+			productName = WordLearningApp;
+			productReference = 28CA45622EFBD37600E34085 /* WordLearningApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = A10000000000000000000080 /* Build configuration list for PBXProject "WordLearningApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000040;
+			productRefGroup = A10000000000000000000040;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000050 /* WordLearningApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C265E928024CF5BFFAE4CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* WordLearningApp/App/WordLearningApp.swift in Sources */,
+				A10000000000000000000002 /* WordLearningApp/Models/WordData.swift in Sources */,
+				A10000000000000000000003 /* WordLearningApp/Services/Config/LLMConfigStore.swift in Sources */,
+				A10000000000000000000004 /* WordLearningApp/Services/Network/APIService.swift in Sources */,
+				A10000000000000000000005 /* WordLearningApp/Services/Storage/LocalStorage.swift in Sources */,
+				A10000000000000000000006 /* WordLearningApp/ViewModels/HomeViewModel.swift in Sources */,
+				A10000000000000000000007 /* WordLearningApp/ViewModels/WordDetailViewModel.swift in Sources */,
+				A1000000000000000000000A /* WordLearningApp/Views/Home/HomeView.swift in Sources */,
+				A1000000000000000000000B /* WordLearningApp/Views/Root/RootTabView.swift in Sources */,
+				A10000000000000000000008 /* WordLearningApp/Views/Favorites/FavoritesView.swift in Sources */,
+				A10000000000000000000009 /* WordLearningApp/Views/History/HistoryView.swift in Sources */,
+				A1000000000000000000000C /* WordLearningApp/Views/Settings/SettingsView.swift in Sources */,
+				A1000000000000000000000D /* WordLearningApp/Views/WordDetail/WordDetailView.swift in Sources */,
+				9096D333727A4951A6FE96CF /* ThemeManager.swift in Sources */,
+				4AE092FF5A5849B58623AD0D /* AppTheme.swift in Sources */,
+				E1D3F5C5F4D74D3BAFEB1C01 /* TTSService.swift in Sources */,
+				0F0B6E0C5B1E4F63A0FE3F27 /* WordFormService.swift in Sources */,
+			
+				3B1F4CAADB6E4B70B5EB21F9 /* EmptyStateView.swift in Sources */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = MHL5CC8494;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WordLearning;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liusong.wordlearningapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = MHL5CC8494;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WordLearning;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liusong.wordlearningapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000060 /* Build configuration list for PBXNativeTarget "WordLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000090 /* Debug */,
+				A10000000000000000000091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000080 /* Build configuration list for PBXProject "WordLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000090 /* Debug */,
+				A10000000000000000000091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000070 /* Project object */;
+}

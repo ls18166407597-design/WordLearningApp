@@ -1,0 +1,60 @@
+{
+  "running": {"original": "run", "type": "present_participle"},
+  "runs": {"original": "run", "type": "third_person"},
+  "ran": {"original": "run", "type": "past"},
+  
+  "books": {"original": "book", "type": "plural"},
+  "booking": {"original": "book", "type": "present_participle"},
+  "booked": {"original": "book", "type": "past"},
+  
+  "went": {"original": "go", "type": "past"},
+  "gone": {"original": "go", "type": "past_participle"},
+  "goes": {"original": "go", "type": "third_person"},
+  "going": {"original": "go", "type": "present_participle"},
+  
+  "children": {"original": "child", "type": "plural"},
+  "men": {"original": "man", "type": "plural"},
+  "women": {"original": "woman", "type": "plural"},
+  "mice": {"original": "mouse", "type": "plural"},
+  "teeth": {"original": "tooth", "type": "plural"},
+  "feet": {"original": "foot", "type": "plural"},
+  
+  "studies": {"original": "study", "type": "plural"},
+  "studied": {"original": "study", "type": "past"},
+  "studying": {"original": "study", "type": "present_participle"},
+  
+  "stopped": {"original": "stop", "type": "past"},
+  "stopping": {"original": "stop", "type": "present_participle"},
+  "stops": {"original": "stop", "type": "third_person"},
+  
+  "making": {"original": "make", "type": "present_participle"},
+  "made": {"original": "make", "type": "past"},
+  "makes": {"original": "make", "type": "third_person"},
+  
+  "taking": {"original": "take", "type": "present_participle"},
+  "took": {"original": "take", "type": "past"},
+  "taken": {"original": "take", "type": "past_participle"},
+  "takes": {"original": "take", "type": "third_person"},
+  
+  "writing": {"original": "write", "type": "present_participle"},
+  "wrote": {"original": "write", "type": "past"},
+  "written": {"original": "write", "type": "past_participle"},
+  "writes": {"original": "write", "type": "third_person"},
+  
+  "playing": {"original": "play", "type": "present_participle"},
+  "played": {"original": "play", "type": "past"},
+  "plays": {"original": "play", "type": "third_person"},
+  
+  "boxes": {"original": "box", "type": "plural"},
+  "watches": {"original": "watch", "type": "plural"},
+  "classes": {"original": "class", "type": "plural"},
+  
+  "knives": {"original": "knife", "type": "plural"},
+  "wives": {"original": "wife", "type": "plural"},
+  "lives": {"original": "life", "type": "plural"},
+  
+  "better": {"original": "good", "type": "comparative"},
+  "best": {"original": "good", "type": "superlative"},
+  "worse": {"original": "bad", "type": "comparative"},
+  "worst": {"original": "bad", "type": "superlative"}
+}
