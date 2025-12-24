@@ -21,6 +21,9 @@ Podfile.lock
 # Carthage
 Carthage/Build/
 
+# Local caches
+words/
+
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
